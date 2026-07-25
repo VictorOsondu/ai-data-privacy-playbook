@@ -5,7 +5,7 @@
 ![Practitioner-built](https://img.shields.io/badge/practitioner--built-yes-f0a500)
 ![Licence](https://img.shields.io/badge/licence-CC%20BY%204.0-00d4aa)
 
-A plain-English playbook for protecting your data in the age of AI — for individuals and small teams. Not scaremongering, and not "delete everything and hide". Just a clear account of what AI tools do with what you type, and the handful of habits that keep you safe.
+A plain-English playbook for protecting your data in the age of AI — for individuals and small teams. Not scaremongering, and not "delete everything and hide". Just a clear account of what AI tools can do with what you type, and the handful of habits that reduce avoidable risk.
 
 It's the companion to the free, local-only **[AI Data-Practices Checker](https://github.com/VictorOsondu/ai-data-practices-checker)** browser extension: the extension scans a privacy policy and quotes the AI-era clauses; this playbook tells you what to do about them.
 
@@ -27,27 +27,31 @@ It's the companion to the free, local-only **[AI Data-Practices Checker](https:/
 
 ## The one idea
 
-Every risk in this playbook reduces to one habit:
+Most everyday AI data risk reduces to one habit:
 
 > **Know your tier, check your toggles, and never paste what you wouldn't publish.**
 
-The biggest single variable is free/consumer vs paid/enterprise — it changes whether your data is retained, trained on, and human-reviewed by default. Almost everything else is refinement of that one rule.
+For public or consumer AI tools, the safest default is to treat prompts as if they could be retained, reviewed, or reused unless the vendor clearly says otherwise. For work, the bigger question is whether the tool is approved for that data, covered by the right agreement, and configured correctly. Product tier matters, but so do vendor policy, account type, admin controls, connected apps, settings, region, and the specific feature you are using.
 
 ## What's inside
 
-- 📖 **[What AI tools actually do with your data](guide/what-ai-does-with-your-data.md)** — the five things that can happen to your input, and the tier that changes everything.
+- 📖 **[What AI tools actually do with your data](guide/what-ai-does-with-your-data.md)** — the five things that can happen to your input, and the settings that change the risk.
 - ✅ **[Personal AI data-hygiene checklist](checklist/ai-data-hygiene.md)** — setup, the before-every-prompt habit, and what to do if something went in that shouldn't have.
+- 🧭 **[Should I paste this into AI?](guide/should-i-paste-this-into-ai.md)** — a decision tree for public tools, approved work tools, personal data, client data, credentials, and regulated data.
 - 🚩 **[AI vendor privacy red-flags](templates/vendor-red-flags.md)** — how to judge a tool's data practices before you trust it.
+- 📋 **[Small-team AI data policy](templates/small-team-ai-data-policy.md)** and **[AI tool register](templates/ai-tool-register.md)** — lightweight templates for teams without a privacy department.
+- 🔎 **[Sources and verification notes](sources.md)** — primary sources used to keep this playbook current.
 
 ## Start here
 
-1. Read **[What AI tools do with your data](guide/what-ai-does-with-your-data.md)** — ten minutes, and the tier point alone is worth it.
-2. Run the **[hygiene checklist](checklist/ai-data-hygiene.md)** on your own setup and fix the toggles.
-3. Before trusting a new tool, run its policy through the **[checker extension](https://github.com/VictorOsondu/ai-data-practices-checker)** and the **[red-flags list](templates/vendor-red-flags.md)**.
+1. Read **[What AI tools do with your data](guide/what-ai-does-with-your-data.md)** — ten minutes, and the point about tiers and settings alone is worth it.
+2. Use **[Should I paste this into AI?](guide/should-i-paste-this-into-ai.md)** before sharing anything sensitive.
+3. Run the **[hygiene checklist](checklist/ai-data-hygiene.md)** on your own setup and fix the toggles.
+4. Before trusting a new tool, run its policy through the **[checker extension](https://github.com/VictorOsondu/ai-data-practices-checker)** and the **[red-flags list](templates/vendor-red-flags.md)**.
 
 ## Where this came from
 
-This playbook is built on the same work as the shipped **[AI Data-Practices Checker](https://github.com/VictorOsondu/ai-data-practices-checker)** extension — a real, local-only tool that scans privacy policies for AI-era data practices — and on AI Tutorium's safe-use training. Its claims mirror what that extension actually checks; it doesn't promise privacy guarantees it can't keep.
+This playbook is built on the same work as the shipped **[AI Data-Practices Checker](https://github.com/VictorOsondu/ai-data-practices-checker)** extension — a real, local-only tool that scans privacy policies for AI-era data practices — and on AI Tutorium's safe-use training. Its claims are grounded in vendor documentation and public guidance listed in [sources.md](sources.md); it doesn't promise privacy guarantees it can't keep.
 
 ## Free vs done-with-you
 
@@ -56,6 +60,10 @@ The playbook, checklist, and red-flags list are free to use and adapt under CC B
 ## Part of a series
 
 A topic playbook alongside the **[AI Adoption Playbooks](https://github.com/VictorOsondu/ai-adoption-playbooks)** series.
+
+## Scope
+
+This is practical public guidance for individuals and small teams. It is UK/EU-aware, but it is not a jurisdiction-specific compliance manual. Vendor policies change often; check the linked sources and the vendor's current terms before relying on any tool for sensitive, client, employee, health, financial, safeguarding, or regulated data.
 
 ---
 
