@@ -2,6 +2,11 @@
 
 This project follows [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Changed
+- Cross-linked **[AI Prompt Injection, Explained](https://github.com/VictorOsondu/ai-prompt-injection-explained)** from the series section and from the connected-apps item in the hygiene checklist. That explainer covers the security side — what someone else can make your assistant do — which this playbook doesn't.
+
 ## [0.1.0] — 2026-07-24
 
 ### Added

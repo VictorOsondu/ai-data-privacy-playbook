@@ -59,7 +59,7 @@ The playbook, checklist, and red-flags list are free to use and adapt under CC B
 
 ## Part of a series
 
-A topic playbook alongside the **[AI Adoption Playbooks](https://github.com/VictorOsondu/ai-adoption-playbooks)** series.
+A topic playbook alongside the **[AI Adoption Playbooks](https://github.com/VictorOsondu/ai-adoption-playbooks)** series and **[AI Prompt Injection, Explained](https://github.com/VictorOsondu/ai-prompt-injection-explained)** — this playbook is about what a vendor does with the data you hand over, that one is about what a stranger can make your assistant do with text it was only asked to read.
 
 ## Scope
 
