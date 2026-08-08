@@ -7,6 +7,7 @@ This project follows [Semantic Versioning](https://semver.org/).
 ### Added
 - **[controls/](controls/README.md)** — a per-tool map of where the training and retention settings actually live, with the click path, what each setting covers, and what it doesn't. Pages for [Claude](controls/claude.md), [Gemini](controls/gemini.md), [Copilot](controls/copilot.md) and [ChatGPT](controls/chatgpt.md), each carrying the date it was last checked.
 - A verification table in the controls index, so staleness is visible rather than assumed.
+- **What a DPA is, and when it becomes your problem** in [guide/what-ai-does-with-your-data.md](guide/what-ai-does-with-your-data.md) — plain-English controller/processor explanation, why free tiers generally offer no DPA, why an old DPA may not cover newly added AI features, and the line where it stops applying to individuals. The acronym already appeared in three checklists with nothing explaining it.
 
 ### Changed
 - Cross-linked the controls section from the README, the hygiene checklist's training-control item, and the settings paragraph in *What AI tools actually do with your data*.

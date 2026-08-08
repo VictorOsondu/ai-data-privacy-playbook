@@ -38,6 +38,22 @@ For public or consumer AI tools, treat these as never-goes-in:
 
 **The public-tool test:** *Would I be comfortable if this input appeared publicly, attached to my name?* If not, don't paste it into a consumer tool. Use an approved work tool configured for that data, redact the input, use synthetic examples, or don't use AI for that task.
 
+## What a DPA is, and when it becomes your problem
+
+You'll see "DPA" in vendor documentation and in this playbook's checklists. It stands for **Data Processing Agreement**, and it's worth ninety seconds of your time because it decides more approvals than any privacy policy does.
+
+Under UK and EU data protection law, whoever decides what personal data gets processed and why is the **controller**. Whoever processes it on their instruction is the **processor**. If you run a business, a charity, a school, or a practice, and you put other people's personal data into an AI tool, you're the controller and the vendor is the processor. The law expects a written contract between you, and that contract is the DPA. It covers what the vendor may do with the data, how long they keep it, who else they hand it to, and what happens when you leave.
+
+Three things follow, and they're the useful part:
+
+- **The accountability is yours.** Not the vendor's. "The tool didn't mention it" isn't a defence.
+- **Free and consumer tiers generally don't offer a DPA.** This is usually the real reason a popular tool can't be approved for client or customer data, and it's a much faster conversation than arguing about privacy-policy wording.
+- **An old DPA doesn't automatically cover new AI features.** Plenty of established suppliers have added AI to products you already use, under paperwork signed years earlier. Worth asking what changed.
+
+If you're an individual using AI for your own work, with no one else's personal data involved, none of this applies to you. The moment client, patient, pupil, employee, or congregant data enters the picture, it does.
+
+Not legal advice. Where children's data, health records, safeguarding information, or anything regulated is involved, get someone qualified to look rather than relying on a checklist.
+
 ## Checking a tool before you trust it
 
 Privacy policies are long and often hard to compare. Two shortcuts:
