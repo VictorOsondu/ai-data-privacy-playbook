@@ -4,7 +4,18 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- **[controls/](controls/README.md)** — a per-tool map of where the training and retention settings actually live, with the click path, what each setting covers, and what it doesn't. Pages for [Claude](controls/claude.md), [Gemini](controls/gemini.md), [Copilot](controls/copilot.md) and [ChatGPT](controls/chatgpt.md), each carrying the date it was last checked.
+- A verification table in the controls index, so staleness is visible rather than assumed.
+
 ### Changed
+- Cross-linked the controls section from the README, the hygiene checklist's training-control item, and the settings paragraph in *What AI tools actually do with your data*.
+- Updated the Anthropic source to the model-training article and noted the `privacy.anthropic.com` → `privacy.claude.com` domain move. Removed the superseded "Updates to our Privacy Policy" link, which no longer added anything the other two didn't cover.
+
+### Known gaps
+- **[controls/chatgpt.md](controls/chatgpt.md) is partially verified.** The Data controls screen was checked in-product on a Plus account (2026-08-08), confirming `Improve the model for everyone` is **on by default on a paid plan** and that the row opens a sub-page rather than acting as a toggle. Still open: the sub-page contents, where memory lives, Temporary Chat retention, deletion coverage, and Free/Pro/Team/Enterprise/Edu defaults. Listed on the page as an explicit checklist rather than guessed at.
+- **Meta AI is not covered.** Its control is a regional objection form and the available accounts of it are secondary. Deferred rather than written up thinly.
+
 - Cross-linked **[AI Prompt Injection, Explained](https://github.com/VictorOsondu/ai-prompt-injection-explained)** from the series section and from the connected-apps item in the hygiene checklist. That explainer covers the security side — what someone else can make your assistant do — which this playbook doesn't.
 
 ## [0.1.0] — 2026-07-24

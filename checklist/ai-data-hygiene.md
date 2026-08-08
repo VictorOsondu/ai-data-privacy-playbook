@@ -7,7 +7,7 @@ Last reviewed: 2026-07-24. See [sources and verification notes](../sources.md).
 ## Setup (do once)
 
 - [ ] I know which **tier** I'm on for each AI tool I use (free/consumer vs paid/enterprise).
-- [ ] I've checked the **training / model-improvement control** and turned off data sharing where I don't want it.
+- [ ] I've checked the **training / model-improvement control** and turned off data sharing where I don't want it. ([Where that setting lives, tool by tool](../controls/README.md) — the labels and menus differ more than you'd expect, and in Copilot the setting most people find isn't the one that controls training.)
 - [ ] I've checked the **chat history / retention** setting and set it to what I actually want.
 - [ ] I've checked **memory / personalisation** settings and cleared anything I don't want reused later.
 - [ ] I've checked **connected apps, plugins, browser extensions, file access, voice, and screen-sharing** settings. Connectors are also how a hidden instruction in a document reaches your accounts — the [personal AI security checklist](https://github.com/VictorOsondu/ai-prompt-injection-explained/blob/main/checklist/personal-ai-security.md) goes through permissions and prompt injection in detail.

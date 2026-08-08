@@ -1,6 +1,6 @@
 # Sources and Verification Notes
 
-Last reviewed: 2026-07-24.
+Last reviewed: 2026-08-08.
 
 The GitHub AI Adoption Playbook by GitHub is used and adapted with changes under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution does not imply GitHub endorsement of this playbook.
 
@@ -31,9 +31,18 @@ This playbook uses primary vendor documentation, regulator guidance, and public 
 
 ### Anthropic Claude
 
-- [How long do you store my data?](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data) - consumer retention guidance, including deletion from backend systems and longer retention where users allow data use to improve Claude.
-- [Updates to our Privacy Policy](https://privacy.anthropic.com/en/articles/10301952-updates-to-our-privacy-policy) - includes policy-change notes relevant to model training and retention.
+- [How do you use personal data in model training?](https://privacy.claude.com/en/articles/10023548-how-do-you-use-personal-data-in-model-training) - the `Model Improvement` setting, its opt-in default on consumer plans, the five-year retention attached to enabling it, and the exclusion of Incognito chats. Vendor page dated 2026-07-01; checked 2026-08-08.
 - [Data retention practices for Covered Models](https://privacy.claude.com/en/articles/15425996-data-retention-practices-for-covered-models) - specialised retention guidance for designated covered models.
+- Note: Anthropic's privacy documentation moved from `privacy.anthropic.com` to `privacy.claude.com` and the old domain now 301-redirects. Links citing the old host still resolve, but should be updated when touched.
+
+### Settings and controls (per-tool)
+
+The [controls section](controls/README.md) documents where each vendor's training and retention settings live. Sources for those pages, with the date each was checked:
+
+- [Microsoft Copilot privacy controls](https://support.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-privacy-controls) - names the consumer settings verbatim (`Training on conversation activity`, `Training on voice conversations`, `Personalization and memory`, `Microsoft usage data`), the click paths for web, mobile and the Edge sidebar, the uses opting out does *not* cover, and the regional rollout that explains a missing toggle. No last-updated date shown on the vendor page; checked 2026-08-08.
+- [Gemini Apps Privacy Hub](https://support.google.com/gemini/answer/13594961) - the `Keep Activity` setting (renamed from `Gemini Apps Activity`), the 72-hour retention that applies when it's off, feedback as a route back into training, the separate audio/Live control, and human review retained up to three years. Vendor page dated 2026-07-15; checked 2026-08-08.
+- **OpenAI — verification gap.** `help.openai.com` returns HTTP 403 to automated access, so the ChatGPT page could not be verified against the vendor's own documentation and is published with an unverified banner. Its setting name and path come from indexed copies of OpenAI help articles. Resolve by checking Settings → Data Controls in a live account and recording the plan tested.
+- **Meta AI — not covered.** Its control is a regional objection form rather than a settings toggle, and the available accounts of it are secondary. Not written up until it can meet the same bar as the rest.
 
 ## Public Guidance and Frameworks
 
@@ -52,3 +61,4 @@ This playbook uses primary vendor documentation, regulator guidance, and public 
 - Whether business, enterprise, API, education, and healthcare plans are excluded from model training by default.
 - Whether DPAs, BAAs, data residency, audit logs, admin controls, SSO, and retention controls apply to the specific plan being used.
 - Whether third-party model providers, plugins, extensions, or connected apps receive customer content.
+- Whether the settings paths in the [controls section](controls/README.md) still match the live product. Menus move, and a stale click path is the fastest way for this playbook to lose trust.

@@ -20,6 +20,8 @@ The biggest visible variable is often **free/consumer vs paid/enterprise**, but 
 - **Business/enterprise/API tiers** often commit not to train on customer inputs or outputs by default and may offer contractual controls, admin settings, audit logs, retention controls, access management, data residency, and DPAs. These controls are product-specific and should be checked before use.
 - **Features can override your assumptions.** Connected apps, file uploads, browser or desktop agents, voice, screen sharing, memory, feedback buttons, plugins, and integrations may have separate data flows.
 
+For where these controls actually sit in each tool, see **[Where the privacy controls actually live](../controls/README.md)** — click paths for Claude, Gemini, Copilot and ChatGPT, each dated with when it was last checked.
+
 If you take one thing from this guide: **know the exact product and account you are using, then check the training, retention, memory, connected-app, and sharing controls.**
 
 ## What "training on your data" really means
